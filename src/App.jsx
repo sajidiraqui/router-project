@@ -9,6 +9,7 @@ import Signup from "./pages/Signup"
 import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
+  // Checking commit history
   const[isLoggedIn,setIsLoggedIn]=useState(false);
   return (
     <div className="w-screen h-screen bg-richblack-900 flex flex-col">
